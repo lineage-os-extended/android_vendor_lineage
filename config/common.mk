@@ -146,6 +146,7 @@ PRODUCT_PACKAGES += \
     Eleven \
     ExactCalculator \
     Jelly \
+    Lawnchair \
     LockClock \
     TrebuchetQuickStep \
     Updater \
