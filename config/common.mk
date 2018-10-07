@@ -146,13 +146,12 @@ PRODUCT_PACKAGES += \
     Eleven \
     ExactCalculator \
     Jelly \
-    Lawnchair \
     LockClock \
     TrebuchetQuickStep \
     Updater \
     WeatherProvider \
     Brevent \
-	ThermalController \
+    ThermalController \
     Substratum
 
 # Exchange support
@@ -228,6 +227,13 @@ PRODUCT_PACKAGES += \
 # rsync
 PRODUCT_PACKAGES += \
     rsync
+
+# Lawnchair
+PRODUCT_PACKAGES += Lawnchair
+PRODUCT_COPY_FILES += \
+    vendor/lineage/prebuilt/common/etc/permissions/privapp-permissions-lawnchair.xml:system/etc/permissions/privapp-permissions-lawnchair.xml \
+    vendor/lineage/prebuilt/common/etc/sysconfig/lawnchair-hiddenapi-package-whitelist.xml:system/etc/sysconfig/lawnchair-hiddenapi-package-whitelist.xml
+
 
 # Storage manager
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
