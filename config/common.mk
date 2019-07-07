@@ -150,7 +150,8 @@ PRODUCT_PACKAGES += \
     LockClock \
     TrebuchetQuickStep \
     Updater \
-    WeatherProvider
+    WeatherProvider \
+    Substratum
 
 # Exchange support
 PRODUCT_PACKAGES += \
