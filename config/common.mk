@@ -151,6 +151,7 @@ PRODUCT_PACKAGES += \
     TrebuchetQuickStep \
     Updater \
     WeatherProvider \
+    Brevent \
     Substratum
 
 # Exchange support
