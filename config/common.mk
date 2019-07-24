@@ -152,6 +152,7 @@ PRODUCT_PACKAGES += \
     Updater \
     WeatherProvider \
     Brevent \
+	ThermalController \
     Substratum
 
 # Exchange support
