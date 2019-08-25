@@ -156,6 +156,7 @@ PRODUCT_PACKAGES += \
     WeatherProvider \
     Brevent \
     ThermalController \
+	Longshot \
     Substratum
 
 # Exchange support
